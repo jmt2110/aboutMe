@@ -3,9 +3,22 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello, my name is Jacob Thomas");
-        System.out.println("I am 25 years old as of Jan 19th 2022");
-        System.out.println("I am currently in the US Army Reserves");
-        System.out.println("I live in Mchenry, Illinois with my Fiance");
+        boolean v1 = true;
+        int v2 = 5;
+        char v3 = 'a';
+        double v4 = 2000000.4;
+        float v5 = 0.4f;
+        long v6 = 1000;
+        short v7 = 6;
+        byte v8 = 127;
+
+        System.out.println("byte demo: " + v8);
+        System.out.println("short demo: " + v7);
+        System.out.println("int demo: " + v2);
+        System.out.println("long demo: " + v6);
+        System.out.println("float demo: " + v5);
+        System.out.println("double demo: " + v4);
+        System.out.println("boolean demo: " + v1);
+        System.out.println("char demo: " + v3);
     }
 }
